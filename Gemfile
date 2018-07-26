@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.2.0'
-gem 'sqlite3'
+gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'bootsnap'
 gem 'puma', '~> 3.7'
