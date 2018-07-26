@@ -7,6 +7,7 @@ end
 
 gem 'rails', '~> 5.2.0'
 gem 'sqlite3'
+gem 'pg', group: :production
 gem 'bootsnap'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
@@ -19,6 +20,7 @@ gem 'kaminari'
 gem 'ransack'
 gem 'devise'
 gem 'foreman'
+gem 'rails_12factor'
 
 # COMMENTED OUT: Turbolinks doesn't play well with SPA
 # gem 'turbolinks', '~> 5'
